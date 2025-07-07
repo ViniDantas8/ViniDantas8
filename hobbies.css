@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 5px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #FF7043;
+}
+
+.Paginas-Cabeçalho {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.Paginas-Cabeçalho a[href="hobbies.html"] {
+    color: #FF7043;
+}
+
+.Paginas-Cabeçalho a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Paginas-Cabeçalho a:hover {
+    color: #FF7043;
+}
+
+
+
+main {
+    padding: 40px 20px;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #424242;
+    font-weight: 600;
+}
+
+main p {
+    font-size: 16px;
+    color: #5F5F5F;
+}
+
+.img-futsal img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    max-width: 100%;
+    height: 100%;
+    height: 300px;
+}
+
+.img-volei img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+    max-width: 100%;
+    height: 100%;
+    height: 300px;
+}
+
+
+
+footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 5px;
+    align-items: center;
+    height: 70px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #FF7043;
+}
+
+.bi {
+    margin-right: 5px;
+    color: #FF7043;
+    vertical-align: middle;
+}
